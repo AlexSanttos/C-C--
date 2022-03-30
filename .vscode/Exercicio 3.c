@@ -25,7 +25,15 @@ int main (){
 	
 	printf ("Media = %.2f \n", media);
 	
-	
+	if (media >=7){
+		printf("Aprovado\n");
+	}
+	else if(media >= 5){
+		printf("Recuperação \n");
+	}
+	else{
+		printf("Você foi reprovado \n");
+	}
 	
 system("pause");
 	return 0;
